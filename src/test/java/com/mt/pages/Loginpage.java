@@ -23,6 +23,7 @@ public class Loginpage
 	//imp h ye method
 	public void loadLoginPage()
 	{
+		System.out.println("loadloginpage");
 		//arg(webdriver drivere,object) ,pagefactory is a type whr all the locator are store
 		PageFactory.initElements(Config.driver, this);
 	}
